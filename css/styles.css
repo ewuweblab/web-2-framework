@@ -21,6 +21,28 @@ main {
   flex-wrap: wrap;
 }
 
+
+/* Custom UI Controls */
+
+/* Example: Change color of play button */
+.plyr__control--overlaid {
+  background: coral;
+}
+/* button on focus */
+.plyr--video .plyr__control:hover {
+  background: black;
+}
+
+/* Example: Change color of progress bar */
+.plyr--full-ui input[type="range"] {
+  color: coral;
+}
+
+/* Example: Change player controls */
+.plyr--video .plyr__controls {
+    color: coral;
+  font-size: 2em;
+}
 /* Media Queries */
 /* 
   Mobile: 
