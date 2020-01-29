@@ -21,6 +21,16 @@ main {
   flex-wrap: wrap;
 }
 
+/*  Custom UI Controls */
+.plyr--full-ui input[type="range"]
+{
+  color:red;
+
+}
+
+
+
+
 /* Media Queries */
 /* 
   Mobile: 
