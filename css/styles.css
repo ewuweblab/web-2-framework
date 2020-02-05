@@ -1,28 +1,15 @@
-/* My Awesome Styles */
-
-/* Diagnostic Styling 
-  * Change Background Color
-  * Outline Elements
-*/
-
-* {
-    outline: 1px dotted black;
-}
-
-/* Parent Container */
 main { 
+  margin: 0 auto;
+    
   display: grid;
   grid-template-columns: 1fr;
 }
 
-/* The Cast of the movie */
 .cast {  
   display: flex;
   flex-wrap: wrap;
 }
 
-
-/* Custom UI Controls */
 
 /* Example: Change color of play button */
 .plyr__control--overlaid {
@@ -43,10 +30,15 @@ main {
     color: coral;
   font-size: 2em;
 }
-/* Media Queries */
-/* 
-  Mobile: 
-  * 384px = 24em
+
+/* Example: Change playtime font size  */
+.plyr__time {
+    font-size: 24px;
+}
+
+
+/* Mobile 
+  0 to 26em (416 pixels)
 */
 @media only screen and (min-width: 0) { 
     
@@ -58,10 +50,10 @@ main {
   
 }
 
-/* Tablet:  
-  * 768px = 48em 
+/* Tablet 
+  26em (416 pixels) to 72em (1,152 pixels)
 */
-@media only screen and (min-width: 24em)  {
+@media only screen and (min-width: 26em)  {
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
@@ -71,8 +63,8 @@ main {
 
 }
 
-/* Desktop: 
-  * 1152px = 72em
+/* Desktop 
+   72em (1,152 pixels) to 90em (1440 pixels)
 */
 @media screen and (min-width: 72em)  { 
   
@@ -82,10 +74,21 @@ main {
        content: "Desktop Size";
   }
 
+  /*  Control positionof player  */
+  .trailer {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  /* Set Width of Player */
+  .plyr {
+    width: 80%;
+  }
+  
 }
 
 /* Wide Desktop: 
-  * 1440px = 90em
+  Greater than 90em (1440px)
 */
 @media screen and (min-width: 90em) { 
   
@@ -94,72 +97,10 @@ main {
        background: yellow;
        content: "Wide Desktop Size";
   }
-
-}
-
-
-
-
-@media only screen 
-  and (min-width: 0) 
-  and (max-width: 48em)  { 
-    
-    /* Diagnostic Styling. Delete When Done. */
-    body:before {
-         background: yellow;
-         content: "Mobile Size";
-    }
-    
-    .cast {
-      text-align: center;
-      justify-content: center;
-    }
   
-}
-
-/* Tablet:  
-  * 768px = 48em 
-    1023px = 63.9375em;
-*/
-@media only screen 
-  and (min-width: 48em) 
-  and (max-width: 64em)  {
-    
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Tablet Size";
-  } 
-    
-}
-
-/* Desktop: 
-  * 1024px = 64em
-  * 64em and larger
-*/
-@media screen 
-  and (min-width: 64em) 
-  and (max-width: 90em) { 
-  
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
+   /* Set Width of Player */
+  .plyr {
+    width: 60%;
   }
 
 }
-
-/* Wide Desktop: 
-  * 1440px = 90em
-  * 90em and wider
-*/
-@media screen and (min-width: 90em) { 
-  
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Wide Desktop Size";
-  }
-
-}
-
