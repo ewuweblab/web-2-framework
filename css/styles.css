@@ -5,15 +5,12 @@ font-family: 'Merriweather Sans', sans-serif;*/
 
 
 
-
-
-
-
-main { 
+body { 
+  background-color: #CCBAA4;
   margin: 50px 50px;
   display: grid;
   grid-template-columns: 1fr;
-  background-color: ;
+  
 }
 
 img {
@@ -25,6 +22,7 @@ img {
 .info {
    font-family: 'Merriweather Sans', sans-serif;
    line-height: 1.6;
+
 }
 
 ul {
@@ -32,23 +30,30 @@ ul {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
-#svgMesquite {
-  margin: 50px 25px -25px;
-  display: flex;
+.svgMainTitle {
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 50px;
   max-width: 100%;
 
+}
+
+.svgStarring {
+  position: relative;
+  
 }
 
 .cast {  
   display: flex;
   flex-wrap: wrap;
-  font-family: 'Yellowtail', cursive;
+  font-family: 'Merriweather Sans', cursive;
 }
 
 blockquote {
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   color: #8e341b;
-  font-family: 'Yellowtail', cursive;
+  font-family: 'Merriweather Sans', cursive;
+  text-align: center;
 }
 
 /* Example: Change color of play button */
