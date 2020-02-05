@@ -1,8 +1,12 @@
 main { 
   margin: 0 auto;
-    
   display: grid;
   grid-template-columns: 1fr;
+  background-color: f1f1f1;
+}
+
+.svgMesquite {
+margin: 50px 25px -25px;
 }
 
 .cast {  
@@ -10,24 +14,28 @@ main {
   flex-wrap: wrap;
 }
 
+blockquote {
+  font-size: 1.25rem;
+  color: #8e341b;
+}
 
 /* Example: Change color of play button */
 .plyr__control--overlaid {
-  background: coral;
+  background: #E8A87C;
 }
 /* button on focus */
 .plyr--video .plyr__control:hover {
-  background: black;
+  background: #F79E02;
 }
 
 /* Example: Change color of progress bar */
 .plyr--full-ui input[type="range"] {
-  color: coral;
+  color: #E8A87C;
 }
 
 /* Example: Change player controls */
 .plyr--video .plyr__controls {
-    color: coral;
+    color: #E8A87C;
   font-size: 2em;
 }
 
