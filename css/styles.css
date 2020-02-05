@@ -10,15 +10,51 @@
 }*/
 
 
-/* Parent Container*/
-main { 
-  display: grid;
-  grid-template-columns: 1fr;
+
+main{
+  display:grid;
+  grid-template-columns:repeat(1,1fr);
+  background:black;
 }
-/* The Cast of the Movie*/
-.cast {  
-  display: flex;
-  flex-wrap: wrap;
+.cast{
+  display:flex;
+  flex-wrap:wrap;
+}
+h1{
+  color:red;
+  font-family: 'Anton', sans-serif;
+  font-size:75px;
+}
+blockquote{
+  color:red;
+  font-size:75px;
+  font-family: 'Anton', sans-serif;
+  text-align:center;
+  
+}
+.backImage{
+  right:475px;
+  width: 800px;
+  height:800px;
+  position:absolute;
+  z-index:0;
+  opacity:.2;
+}
+
+p{
+  color:red;
+  font-family: 'Anton', sans-serif;
+}
+h2{
+  color:red;
+  font-family: 'Anton', sans-serif;
+}
+img{
+  width:350px;
+  
+}
+div{
+  width:85%;
 }
 
 /*  Custom UI Controls */
