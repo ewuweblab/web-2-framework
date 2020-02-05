@@ -1,22 +1,54 @@
+/* font-family: 'Damion', cursive;
+font-family: 'Yellowtail', cursive;
+font-family: 'Leckerli One', cursive;
+font-family: 'Merriweather Sans', sans-serif;*/
+
+
+
+
+
+
+
 main { 
-  margin: 0 auto;
+  margin: 50px 50px;
   display: grid;
   grid-template-columns: 1fr;
-  background-color: f1f1f1;
+  background-color: ;
 }
 
-.svgMesquite {
-margin: 50px 25px -25px;
+img {
+  border-radius: 10px;
+  border: 1px;
+
+}
+
+.info {
+   font-family: 'Merriweather Sans', sans-serif;
+   line-height: 1.6;
+}
+
+ul {
+  line-height: 2;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+#svgMesquite {
+  margin: 50px 25px -25px;
+  display: flex;
+  max-width: 100%;
+
 }
 
 .cast {  
   display: flex;
   flex-wrap: wrap;
+  font-family: 'Yellowtail', cursive;
 }
 
 blockquote {
-  font-size: 1.25rem;
+  font-size: 2.25rem;
   color: #8e341b;
+  font-family: 'Yellowtail', cursive;
 }
 
 /* Example: Change color of play button */
