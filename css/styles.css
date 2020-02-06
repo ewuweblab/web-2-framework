@@ -5,12 +5,31 @@ font-family: 'Merriweather Sans', sans-serif;*/
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap');
 
+
+
 body { 
-  background-color: #CCBAA4;
+  background-color: #000;
   margin: 50px 50px;
   display: grid;
   grid-template-columns: 1fr;
   
+}
+
+#player {
+  border-radius: 10px;
+}
+
+.trailer {
+  display: block;
+
+  padding: 25px 25px;
+  max-width: 100%;
+}
+
+
+.description {
+  margin-bottom: 30px;
+  color: #c5c6c7;
 }
 
 img {
@@ -26,6 +45,7 @@ img {
 }
 
 ul {
+  color: #c5c6c7;
   line-height: 2;
   font-family: 'Merriweather Sans', sans-serif;
 }
@@ -33,7 +53,7 @@ ul {
 .svgMainTitle {
   margin: 0 auto;
   display: block;
-  padding-bottom: 50px;
+  padding: 75px 0px 0px;
   max-width: 100%;
 
 }
@@ -41,9 +61,11 @@ ul {
 .svgStarring {
   position: relative;
   
+  
 }
 
 .cast {  
+  color: #c5c6c7;
   display: flex;
   flex-wrap: wrap;
   font-family: 'Merriweather Sans', cursive;
@@ -89,7 +111,7 @@ blockquote {
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: #c5c6c7;
        content: "Mobile Size";
   }
   
@@ -102,7 +124,7 @@ blockquote {
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: #c5c6c7;
        content: "Tablet Size";
   }
 
@@ -115,7 +137,7 @@ blockquote {
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: #c5c6c7;
        content: "Desktop Size";
   }
 
@@ -139,7 +161,7 @@ blockquote {
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: #c5c6c7;
        content: "Wide Desktop Size";
   }
   
