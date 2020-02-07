@@ -1,4 +1,7 @@
 // Initialize player
+console.log('OK');
+
+// Initialize player
 const player = new Plyr( '#player', {
   
   // Turn on/off conrols  
@@ -10,3 +13,5 @@ const player = new Plyr( '#player', {
   seekTime : 15
 
 });
+
+
