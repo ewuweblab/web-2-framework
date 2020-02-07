@@ -9,7 +9,6 @@ font-family: 'Oswald', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400&display=swap');
 
 
-
 body { 
   background-color: #000000;
   margin: 50px 50px;
@@ -18,16 +17,16 @@ body {
   
 }
 
-main {
-  
+/* main {
+  IS THERE SOMETHING HERE CAN CHANGE?
 }
+*/
 
 .svgMainTitle {
   margin: 0 auto;
   display: block;
   padding: 75px 0px 0px;
   max-width: 100%;
-
 }
 
 #player {
@@ -36,7 +35,6 @@ main {
 
 .trailer {
   display: block;
-
   padding: 25px 25px;
   max-width: 100%;
 }
@@ -51,9 +49,10 @@ blockquote {
   text-align: center;
 }
 
-.info {
-
+/* .info {
+  IS THERE SOMETHING HERE CAN CHANGE?
 }
+*/
 
 .svgSynopsis {
       
@@ -97,7 +96,6 @@ aside {
 }
 
 ul {
-
   padding: 20px 25px;
   color: #c5c6c7;
   line-height: 2;
