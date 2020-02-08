@@ -5,7 +5,6 @@
 @import url('https://fonts.googleapis.com/css?family=Molengo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400&display=swap');
 
-
 #body { 
   background-color: #000000;
   margin: 50px 50px;
@@ -17,26 +16,28 @@
   margin: 0 auto;
 }
 
-header {
+#header {
   margin: 0 auto;
+  max-width: 100%;
 }
 
 
 .svgMainTitle {
   margin: 0 auto;
   display: block;
-  padding: 75px 0px 0px;
+  padding: 25px 0px 0px;
   max-width: 100%;
 }
 
 #player {
   display: flex;
+  min-width: 100%;
 }
 
 #trailer {
   margin: 0 auto;
   padding: 50px 25px;
-  max-width: 100%;
+  min-width: 100%;
 }
 
 
@@ -106,17 +107,18 @@ letter-spacing: 0.02em;
 color: #8E341B;
 }
 
+
 img {
   padding: 5px;
   border-radius: 20px;
   
   width: 150px;
   border-image-slice: 72 72 72 72 fill;
-border-image-width: 15px 15px 15px 15px;
-border-image-outset: 15px 15px 15px 15px;
-border-image-repeat: round round;
-border-image-source: url(https://www.dropbox.com/s/cmfq4sk3co0a0sk/racecar-clipart-banner-13-transparent.png?raw=1)  
-}
+  border-image-width: 15px 15px 15px 15px;
+  border-image-outset: 15px 15px 15px 15px;
+  border-image-repeat: round round;
+  border-image-source: url(https://www.dropbox.com/s/cmfq4sk3co0a0sk/racecar-clipart-banner-13-  transparent.png?raw=1)  
+  }
 
 .cast {  
   color: #c5c6c7;
@@ -210,12 +212,13 @@ a:focus {
 /* Mobile 
   0 to 26em (416 pixels)
 */
-@media only screen and (min-width: 0) { 
+@media and (max-width: 416px) { 
     
   /* Diagnostic Styling. Delete When Done. */
-  /*blockquote {
-       max-width: 400px;*/
-  }
+    #header, .svgMainTitle {
+    max-width: 375px;
+}
+  
 }
 
 /* Tablet 
