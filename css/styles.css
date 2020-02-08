@@ -24,27 +24,30 @@ body {
   display: block;
   padding: 75px 0px 0px;
   max-width: 100%;
+
+
 }
 
 #player {
-  border-radius: 10px;
+  
 }
 
 #trailer {
-  display: block;
-  padding: 25px 25px;
+  margin: 0 auto;
+  padding: 50px 25px;
   max-width: 100%;
 }
 
 
 .blockquoteDIV {
-
+  display: block;
+  max-width: 90%;
 }
 
 blockquote {
   font-size: 2rem;
   text-shadow: 2px 2px #8e341b;
-  line-height: 1.3;
+  line-height: 1.5;
   letter-spacing: 1px;
   color: #c5c6c7;;
   font-family: 'Rye', cursive;
