@@ -13,6 +13,10 @@
   grid-template-columns: 1fr; 
 }
 
+.main {
+  margin: 0 auto;
+}
+
 header {
   margin: 0 auto;
 }
