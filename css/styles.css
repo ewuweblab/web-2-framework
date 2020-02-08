@@ -2,7 +2,6 @@
 font-family: 'Oswald', sans-serif;
 */
 
-
 @import url('https://fonts.googleapis.com/css?family=Rye&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Molengo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400&display=swap');
@@ -34,7 +33,7 @@ main {
   border-radius: 10px;
 }
 
-.trailer {
+#trailer {
   display: block;
   padding: 25px 25px;
   max-width: 100%;
@@ -151,8 +150,7 @@ a:focus {
   body:before {
        background: #c5c6c7;
        content: "Mobile Size";
-  }
-  
+  } 
 }
 
 /* Tablet 
@@ -165,7 +163,6 @@ a:focus {
        background: #c5c6c7;
        content: "Tablet Size";
   }
-
 }
 
 /* Desktop 
@@ -179,8 +176,8 @@ a:focus {
        content: "Desktop Size";
   }
 
-  /*  Control positionof player  */
-  .trailer {
+  /*  Control position of player  */
+  #trailer {
     display: flex;
     justify-content: center; 
   }
