@@ -112,7 +112,7 @@ color: #8E341B;
   padding: 5px;
   border-radius: 20px;
   
-  width: 150px;
+  width: 212px;
   border-image-slice: 72 72 72 72 fill;
   border-image-width: 15px 15px 15px 15px;
   border-image-outset: 15px 15px 15px 15px;
@@ -125,7 +125,7 @@ color: #8E341B;
   display: flex;
   flex-wrap: wrap;
   font-family: 'Rye', cursive;
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   letter-spacing: .5px;
   text-align: center;
 }
