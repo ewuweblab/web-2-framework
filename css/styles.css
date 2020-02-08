@@ -6,30 +6,27 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400&display=swap');
 
 
-body { 
+#body { 
   background-color: #000000;
   margin: 50px 50px;
   display: grid;
-  grid-template-columns: 1fr;
-  
+  grid-template-columns: 1fr; 
 }
 
-/* main {
-
+header {
+  margin: 0 auto;
 }
-*/
+
 
 .svgMainTitle {
   margin: 0 auto;
   display: block;
   padding: 75px 0px 0px;
   max-width: 100%;
-
-
 }
 
 #player {
-  
+  display: flex;
 }
 
 #trailer {
@@ -41,10 +38,10 @@ body {
 
 .blockquoteDIV {
   display: block;
-  max-width: 90%;
+  max-width: 1200px;
 }
 
-blockquote {
+.blockquote {
   font-size: 2rem;
   text-shadow: 2px 2px #8e341b;
   line-height: 1.5;
@@ -53,12 +50,6 @@ blockquote {
   font-family: 'Rye', cursive;
   text-align: center;
 }  
-
-
-.info {
-
-  padding: 30px 10px;
-}
 
 /* H1 Synopsis in Magneto */
 .Synopsis {
@@ -76,7 +67,11 @@ line-height: 1.25%;
 letter-spacing: 0.02em;
 
 color: #8E341B;
+}
 
+.info {
+  max-width: 1000px;
+  padding: 30px 10px;
 }
 
 .description {
@@ -156,11 +151,11 @@ aside {
   background-color: rgba(150, 0, 0, 0.3);
   box-shadow: 5px 5px #c5c6c7;
   border-radius: 15px;
-  max-width: 50%;
+  max-width: 600px;
 }
 
 .Sources {
-  max-width: 90%;
+  max-width: 600px;
   
 }  
 
@@ -214,11 +209,9 @@ a:focus {
 @media only screen and (min-width: 0) { 
     
   /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: #c5c6c7;
-       content: "Mobile Size";
+  /*blockquote {
+       max-width: 400px;*/
   }
-  
 }
 
 /* Tablet 
@@ -227,9 +220,9 @@ a:focus {
 @media only screen and (min-width: 26em)  {
     
   /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: #c5c6c7;
-       content: "Tablet Size";
+  .blockquote, .info {
+       max-width: 900px;
+       
   }
 
 }
@@ -240,13 +233,12 @@ a:focus {
 @media screen and (min-width: 72em)  { 
   
   /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: #c5c6c7;
-       content: "Desktop Size";
+  .blockquote, .info {
+       max-width: 1200px;
   }
 
   /*  Control positionof player  */
-  .trailer {
+  #trailer {
     display: flex;
     justify-content: center; 
   }
@@ -264,9 +256,8 @@ a:focus {
 @media screen and (min-width: 90em) { 
   
   /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: #c5c6c7;
-       content: "Wide Desktop Size";
+  .blockquote, .info {
+       max-width: 1200px;
   }
   
    /* Set Width of Player */
