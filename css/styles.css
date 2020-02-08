@@ -53,6 +53,7 @@
 
 /* H1 Synopsis in Magneto */
 .Synopsis {
+  margin-top: 0px;
   padding: 0px 0px 40px 0px;
   text-shadow: 1px 1px 4px #c5c6c7;
   font-family: Magneto;
