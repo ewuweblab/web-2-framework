@@ -47,7 +47,7 @@ header {
 
 .blockquote {
   font-size: 2rem;
-  text-shadow: 2px 2px #8e341b;
+  text-shadow: 3px 3px #8e341b;
   line-height: 1.5;
   letter-spacing: 1px;
   color: #c5c6c7;;
@@ -80,12 +80,12 @@ color: #8E341B;
 
 .description {
   font-family: 'Oswald', sans-serif;
-  font-weight: 200;
-  font-size: 1.2rem;
+  font-weight: 400;
+  font-size: 1.4rem;
   letter-spacing: 1.45px;
   line-height: 1.6;
   margin-bottom: 30px;
-  color: #e5e5e5;
+  color: #c5c6c7;
 }
 
 /* H1 Starring in Magneto */
