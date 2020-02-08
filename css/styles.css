@@ -49,6 +49,11 @@
 }  
 
 /* H1 Synopsis in Magneto */
+.testSynopsis {
+  font-family: Magneto;
+  color: white;
+}
+
 .Synopsis {
   width: 186px;
   height: 43px;
