@@ -53,7 +53,7 @@
 
 /* H1 Synopsis in Magneto */
 .Synopsis {
-  padding: 50px 0px;
+  padding: 0px 0px 40px 0px;
   text-shadow: 1px 1px 4px #c5c6c7;
   font-family: Magneto;
   font-style: normal;
@@ -84,7 +84,7 @@
 
 /* H1 Starring in Magneto */
 .Starring {
-  padding: 50px 0px;
+  padding: 0px 0px 40px 0px;
   text-shadow: 1px 1px 4px #c5c6c7;
   font-family: Magneto;
   font-style: normal;
@@ -123,13 +123,13 @@
 
 /* Sources & Add'l content bullet links near bottom */
 .MoreInsights {
-  padding: 50px 0px;
+  padding: 0px 0px 40px 0px;
   text-shadow: 1px 1px 4px #c5c6c7;
   font-family: Magneto;
   font-style: normal;
   font-weight: bold;
   font-size: 2.9rem;
-  line-height: 1.25%;
+  line-height: 48px;
   letter-spacing: 0.02em;
   color: #8E341B;
 }
@@ -206,33 +206,31 @@ footer {
 */
 @media and (max-width: 416px) { 
     
-  /* Diagnostic Styling. Delete When Done. */
     #header, .svgMainTitle, .img {
     max-width: 300px;
     font-size: 1.5rem;
 }
-  
+    .plyr {
+    max-width: 100%;
+  }
 }
 
 /* Tablet 
   26em (416 pixels) to 72em (1,152 pixels)
 */
 @media only screen and (min-width: 26em)  {
-    
-  /* Diagnostic Styling. Delete When Done. */
+
   .blockquote, .info {
        max-width: 900px;
        
   }
-
 }
 
 /* Desktop 
    72em (1,152 pixels) to 90em (1440 pixels)
 */
 @media screen and (min-width: 72em)  { 
-  
-  /* Diagnostic Styling. Delete When Done. */
+
   .blockquote, .info {
        max-width: 1200px;
   }
@@ -254,8 +252,7 @@ footer {
   Greater than 90em (1440px)
 */
 @media screen and (min-width: 90em) { 
-  
-  /* Diagnostic Styling. Delete When Done. */
+
   .blockquote, .info {
        max-width: 1200px;
   }
