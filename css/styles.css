@@ -105,16 +105,15 @@ color: #8E341B;
 }
 
 img {
-  padding: 10px;
+  padding: 5px;
   border-radius: 20px;
-  width: 130px;
+  
+  width: 150px;
   border-image-slice: 72 72 72 72 fill;
-  border-image-width: 10px 10px 10px 10px;
-  border-image-outset: 0px 0px 0px 0px;
-  border-image-repeat: round round;
-  border-image-source: url(https://www.dropbox.com    /s/cmfq4sk3co0a0sk/racecar-clipart-banner-13-   transparent.png?raw=1)  
-
-
+border-image-width: 15px 15px 15px 15px;
+border-image-outset: 15px 15px 15px 15px;
+border-image-repeat: round round;
+border-image-source: url(https://www.dropbox.com/s/cmfq4sk3co0a0sk/racecar-clipart-banner-13-transparent.png?raw=1)  
 }
 
 .cast {  
@@ -122,7 +121,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   font-family: 'Rye', cursive;
+  font-size: 1.15rem;
   letter-spacing: .5px;
+  text-align: center;
 }
 
 .cast:hover {
