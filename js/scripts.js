@@ -13,3 +13,5 @@ const player = new Plyr( '#player', {
   seekTime : 15
 
 });
+
+
