@@ -10,10 +10,12 @@
   grid-template-columns: 1fr; 
 }
 
+/* Centered all containers for consistency across display types */
 #main {
   margin: 0 auto;
 }
 
+/* Will change to Font/Glphys is can't fig-out how to scale for media queries */
 .svgMainTitle {
   margin: 0 auto;
   display: block;
@@ -21,6 +23,7 @@
   max-width: 400px;
 }
 
+/* Still NOT WORKING in Gitbub Version - works well in VSC & Codepen versions */
 #player {
   display: flex;
   min-width: 100%;
@@ -49,16 +52,8 @@
 }  
 
 /* H1 Synopsis in Magneto */
-.testSynopsis {
-  font-family: Magneto;
-  color: white;
-}
-
 .Synopsis {
-  width: 186px;
-  height: 43px;
-  left: 433px;
-  top: 638px;
+  padding: 50px 0px;
   text-shadow: 1px 1px 4px #c5c6c7;
   font-family: Magneto;
   font-style: normal;
@@ -69,12 +64,14 @@
   color: #8E341B;
 }
 
+/* Synopsis container content */
 .info {
   margin: 0 auto;
   max-width: 1000px;
   padding: 30px 10px;
 }
 
+/* Synopsis content */
 .description {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
@@ -87,10 +84,7 @@
 
 /* H1 Starring in Magneto */
 .Starring {
-  width: 181px;
-  height: 43px;
-  left: 36px;
-  top: 640px;
+  padding: 50px 0px;
   text-shadow: 1px 1px 4px #c5c6c7;
   font-family: Magneto;
   font-style: normal;
@@ -115,6 +109,7 @@
   color: #8e341b;
 }
 
+/* Lead Actors Styling */
 .img {
   padding: 5px;
   border-radius: 20px;
@@ -126,12 +121,9 @@
   border-image-source: url(https://www.dropbox.com/s/cmfq4sk3co0a0sk/racecar-clipart-banner-13-transparent.png?raw=1)  
   }
 
-
+/* Sources & Add'l content bullet links near bottom */
 .MoreInsights {
-  width: 400px;
-  height: 43px;
-  left: 127px;
-  top: 1024px;
+  padding: 50px 0px;
   text-shadow: 1px 1px 4px #c5c6c7;
   font-family: Magneto;
   font-style: normal;
@@ -150,17 +142,17 @@ aside {
   max-width: 600px;
 }
 
+/* Source Link Container */
 .Sources {
-  max-width: 600px;
-  
+  max-width: 600px;  
 }  
 
 ul {
-
   color: #c5c6c7;
   line-height: 2.2;
 }
 
+/* Source link styling */
 a {
     color: #c5c6c7;
     font-family: 'Rye', cursive;
@@ -172,6 +164,7 @@ a:focus {
     color: #8e341b;
 }
 
+/* Copy Right to Movie Company */
 footer {
   font-family: 'Oswald', sans-serif;
   font-weight: 200;
