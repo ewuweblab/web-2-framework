@@ -1,7 +1,6 @@
-/* font-family: 'Rye', cursive;
-font-family: 'Oswald', sans-serif;
-*/
 
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,600,600i,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rye&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Molengo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400&display=swap');
@@ -15,9 +14,8 @@ body {
   
 }
 
-/*
-main {
-  
+/* main {
+
 }
 */
 
@@ -26,7 +24,6 @@ main {
   display: block;
   padding: 75px 0px 0px;
   max-width: 100%;
-
 }
 
 #player {
@@ -48,15 +45,29 @@ blockquote {
   font-family: 'Rye', cursive;
   text-align: center;
 }
-/*
-.info {
 
-}
-
-.svgSynopsis {
+/* .info {
 
 }
 */
+
+.Synopsis {
+
+width: 186px;
+height: 43px;
+left: 433px;
+top: 638px;
+
+font-family: Magneto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 43px;
+letter-spacing: 0.02em;
+
+color: #8E341B;
+
+}
 
 .description {
   font-family: 'Oswald', sans-serif;
@@ -68,8 +79,21 @@ blockquote {
   color: #e5e5e5;
 }
 
-.svgStarring {
-  position: relative;  
+.Starring {
+
+width: 181px;
+height: 43px;
+left: 36px;
+top: 640px;
+
+font-family: Magneto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 43px;
+letter-spacing: 0.02em;
+
+color: #8E341B;
 }
 
 img {
@@ -85,33 +109,56 @@ img {
   letter-spacing: .5px;
 }
 
+.cast:hover {
+  color: #8e341b;
+}
+
+.MoreInsights {
+
+width: 400px;
+height: 43px;
+left: 127px;
+top: 1024px;
+
+font-family: Magneto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 43px;
+letter-spacing: 0.02em;
+
+color: #8E341B;
+
+}
+
 aside {
-  color: #c5c6c7;
+  padding: 5px 15px;
+  background-color: rgba(150, 0, 0, 0.3);
+  box-shadow: 5px 5px #c5c6c7;
+  border-radius: 15px;
 }
 
 .Sources {
+
   max-width: 90%;
-  border-radius: 15px;
-  background: #c5c6c7;
+  /* background: #c5c6c7; */
 }
 
 ul {
-
-  padding: 20px 25px;
+  /*padding: 20px 25px;*/
   color: #c5c6c7;
   line-height: 2;
 }
 
-/* Sources and Addl Content Link Styles for ul above */
 a {
-    color: #8e341b;
+    color: #c5c6c7;
     font-family: 'Rye', cursive;
     font-size: 1.25rem;
 }
 
 a:hover,
 a:focus {
-    color: #000000;
+    color: #8e341b;
 }
 
 
@@ -150,7 +197,8 @@ a:focus {
   body:before {
        background: #c5c6c7;
        content: "Mobile Size";
-  } 
+  }
+  
 }
 
 /* Tablet 
@@ -163,6 +211,7 @@ a:focus {
        background: #c5c6c7;
        content: "Tablet Size";
   }
+
 }
 
 /* Desktop 
@@ -176,8 +225,8 @@ a:focus {
        content: "Desktop Size";
   }
 
-  /*  Control position of player  */
-  #trailer {
+  /*  Control positionof player  */
+  .trailer {
     display: flex;
     justify-content: center; 
   }
