@@ -108,7 +108,7 @@ color: #8E341B;
 }
 
 
-img {
+i.img {
   padding: 5px;
   border-radius: 20px;
   
@@ -117,7 +117,7 @@ img {
   border-image-width: 15px 15px 15px 15px;
   border-image-outset: 15px 15px 15px 15px;
   border-image-repeat: round round;
-  border-image-source: url(https://www.dropbox.com/s/cmfq4sk3co0a0sk/racecar-clipart-banner-13-  transparent.png?raw=1)  
+  border-image-source: url(https://www.dropbox.com/s/cmfq4sk3co0a0sk/racecar-clipart-banner-13-transparent.png?raw=1)  
   }
 
 .cast {  
