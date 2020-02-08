@@ -12,15 +12,9 @@
   grid-template-columns: 1fr; 
 }
 
-.main {
+#main {
   margin: 0 auto;
 }
-
-#header {
-  margin: 0 auto;
-  max-width: 100%
-}
-
 
 .svgMainTitle {
   margin: 0 auto;
@@ -35,13 +29,13 @@
 }
 
 #trailer {
-  margin: 0 auto;
   padding: 50px 25px;
   min-width: 100%;
 }
 
 
 .blockquoteDIV {
+  margin: 0 auto;
   display: block;
   max-width: 1200px;
 }
@@ -58,23 +52,22 @@
 
 /* H1 Synopsis in Magneto */
 .Synopsis {
-
-width: 186px;
-height: 43px;
-left: 433px;
-top: 638px;
-text-shadow: 1px 1px 4px #c5c6c7;
-font-family: Magneto;
-font-style: normal;
-font-weight: bold;
-font-size: 2.9rem;
-line-height: 1.25%;
-letter-spacing: 0.02em;
-
-color: #8E341B;
+  width: 186px;
+  height: 43px;
+  left: 433px;
+  top: 638px;
+  text-shadow: 1px 1px 4px #c5c6c7;
+  font-family: Magneto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.9rem;
+  line-height: 1.25%;
+  letter-spacing: 0.02em;
+  color: #8E341B;
 }
 
 .info {
+  margin: 0 auto;
   max-width: 1000px;
   padding: 30px 10px;
 }
@@ -91,33 +84,19 @@ color: #8E341B;
 
 /* H1 Starring in Magneto */
 .Starring {
-
-width: 181px;
-height: 43px;
-left: 36px;
-top: 640px;
-text-shadow: 1px 1px 4px #c5c6c7;
-font-family: Magneto;
-font-style: normal;
-font-weight: bold;
-font-size: 2.9rem;
-line-height: 1.25%;
-letter-spacing: 0.02em;
-
-color: #8E341B;
+  width: 181px;
+  height: 43px;
+  left: 36px;
+  top: 640px;
+  text-shadow: 1px 1px 4px #c5c6c7;
+  font-family: Magneto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.9rem;
+  line-height: 1.25%;
+  letter-spacing: 0.02em;
+  color: #8E341B;
 }
-
-
-.img {
-  padding: 5px;
-  border-radius: 20px;
-  width: 212px;
-  border-image-slice: 72 72 72 72 fill;
-  border-image-width: 15px 15px 15px 15px;
-  border-image-outset: 15px 15px 15px 15px;
-  border-image-repeat: round round;
-  border-image-source: url(https://www.dropbox.com/s/cmfq4sk3co0a0sk/racecar-clipart-banner-13-transparent.png?raw=1)  
-  }
 
 .cast {  
   color: #c5c6c7;
@@ -133,22 +112,31 @@ color: #8E341B;
   color: #8e341b;
 }
 
+.img {
+  padding: 5px;
+  border-radius: 20px;
+  width: 212px;
+  border-image-slice: 72 72 72 72 fill;
+  border-image-width: 15px 15px 15px 15px;
+  border-image-outset: 15px 15px 15px 15px;
+  border-image-repeat: round round;
+  border-image-source: url(https://www.dropbox.com/s/cmfq4sk3co0a0sk/racecar-clipart-banner-13-transparent.png?raw=1)  
+  }
+
+
 .MoreInsights {
-
-width: 400px;
-height: 43px;
-left: 127px;
-top: 1024px;
-text-shadow: 1px 1px 4px #c5c6c7;
-font-family: Magneto;
-font-style: normal;
-font-weight: bold;
-font-size: 2.9rem;
-line-height: 1.25%;
-letter-spacing: 0.02em;
-
-color: #8E341B;
-
+  width: 400px;
+  height: 43px;
+  left: 127px;
+  top: 1024px;
+  text-shadow: 1px 1px 4px #c5c6c7;
+  font-family: Magneto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.9rem;
+  line-height: 1.25%;
+  letter-spacing: 0.02em;
+  color: #8E341B;
 }
 
 aside {
@@ -181,6 +169,15 @@ a:focus {
     color: #8e341b;
 }
 
+footer {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: 1.45px;
+  line-height: 1.6;
+  margin: 100px 0px;
+  color: #c5c6c7;
+}
 
 /* Example: Change color of play button */
 .plyr__control--overlaid {
