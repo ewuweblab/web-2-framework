@@ -73,18 +73,18 @@
 
 /* Synopsis content */
 .description {
+  margin-bottom: 0;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   font-size: 1.4rem;
   letter-spacing: 1.45px;
   line-height: 1.6;
-  margin-bottom: 30px;
   color: #c5c6c7;
 }
 
 /* H1 Starring in Magneto */
 .Starring {
-  padding: 0px 0px 40px 0px;
+  padding: 10px 0px 40px 0px;
   text-shadow: 1px 1px 4px #c5c6c7;
   font-family: Magneto;
   font-style: normal;
@@ -96,6 +96,7 @@
 }
 
 .cast {  
+  margin-bottom: 0;
   color: #c5c6c7;
   display: flex;
   flex-wrap: wrap;
