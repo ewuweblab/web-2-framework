@@ -55,7 +55,7 @@
 .blockquote2 {
   font-size: 1.3rem;
   text-shadow: 1.25px 1.25px #8e341b;
-  line-height: 1.5;
+  line-height: 1.9;
   letter-spacing: 1.5px;
   color: #f2f2f2;
   font-family: 'Magneto', cursive;
@@ -65,7 +65,7 @@
 /* H1 Synopsis in Magneto */
 .Synopsis {
   margin-top: 0;
-  padding: 0px 0px 20px 0px;
+  padding: 0px 0px 15px 0px;
   text-shadow: 1px 1px 4px #e5e5e5;
   font-family: Magneto;
   font-style: normal;
@@ -271,9 +271,8 @@ footer {
   }
   .cast,
   .description {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
  
-  
   }
   .blockquote {
       font-size: 1.7rem;
