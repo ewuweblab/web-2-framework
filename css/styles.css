@@ -144,16 +144,18 @@
   color: #8E341B;
 }
  
+/* CREDIT For Box Border Effects: https://html-css-js.com/css/generator/box-shadow/ */
 .aside {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 15px;
   background-color: rgba(150, 0, 0, 0.3);
-  box-shadow: 5px 5px #c5c6c7;
   border-radius: 15px;
   max-width: 0 auto; 
   align-items: center;
+-webkit-box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0, 10px 10px 0 #000, 20px 10px 0 #F0F0F0, 30px 10px 0 #000, 0 20px 0 #000, 10px 20px 0 #F0F0F0, 20px 20px 0 #000, 30px 20px 0 #F0F0F0, 0 30px 0 #F0F0F0, 10px 30px 0 #000, 20px 30px 0 #F0F0F0, 30px 30px 0 #000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0, 10px 10px 0 #000, 20px 10px 0 #F0F0F0, 30px 10px 0 #000, 0 20px 0 #000, 10px 20px 0 #F0F0F0, 20px 20px 0 #000, 30px 20px 0 #F0F0F0, 0 30px 0 #F0F0F0, 10px 30px 0 #000, 20px 30px 0 #F0F0F0, 30px 30px 0 #000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 #Poster {
