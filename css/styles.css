@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rye&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400&display=swap');
 
+
 #body { 
   background-color: #000000;
   margin: 25px 25px;
@@ -114,7 +115,7 @@
 .img {
   padding: 5px;
   border-radius: 20px;
-  width: 212px;
+  width: 200px;
   border-image-slice: 72 72 72 72 fill;
   border-image-width: 15px 15px 15px 15px;
   border-image-outset: 15px 15px 15px 15px;
@@ -225,9 +226,8 @@ footer {
 /* Mobile - Tablet 0 to 960px */
 @media (max-width: 1100px) { 
     
-    #header,.img {
-    max-width: 300px;
-    font-size: 1.5rem;
+    .img {
+    max-width: 150px;
     margin: 0 auto;
 }
     .plyr, #trailer {
@@ -240,9 +240,10 @@ footer {
   }
   a, ul { 
       font-size: 1rem;
-      line-height: 1.5;
+      line-height: 2;
       padding-top: 20px;
       padding-bottom: 20px;
+      width: 500px;
   }
 }
 
