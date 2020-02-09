@@ -125,6 +125,8 @@
 
 /* Source Link Container */
 #Sources {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   max-width: 1400px;
 } 
@@ -142,10 +144,10 @@
   color: #8E341B;
 }
  
-aside {
+.aside {
   margin: auto;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 15px;
   background-color: rgba(150, 0, 0, 0.3);
   box-shadow: 5px 5px #c5c6c7;
@@ -155,6 +157,7 @@ aside {
 
 #Poster {
   display: flex;
+  flex-wrap: wrap;
   max-width: 70%;
   padding: 20px;
   margin: 0 auto;
@@ -221,7 +224,7 @@ footer {
 /* Mobile 
   0 to 26em (416 pixels)
 */
-@media and (max-width: 416px) { 
+@media (max-width: 960px) { 
     
     #header, .svgMainTitle, .img {
     max-width: 300px;
@@ -229,6 +232,10 @@ footer {
 }
     .plyr {
     max-width: 100%;
+  }
+  .aside {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -239,8 +246,7 @@ footer {
 
   .blockquote, .info {
        max-width: 900px;
-       
-  }
+        }
 }
 
 /* Desktop 
