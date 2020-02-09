@@ -123,6 +123,12 @@
   }
 
 
+/* Source Link Container */
+#Sources {
+  margin: 0 auto;
+  max-width: 1400px;
+} 
+
 /* Sources & Add'l content bullet links near bottom */
 .MoreInsights {
   padding: 0px 0px 25px 0px;
@@ -137,23 +143,27 @@
 }
  
 aside {
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   padding: 15px;
   background-color: rgba(150, 0, 0, 0.3);
   box-shadow: 5px 5px #c5c6c7;
   border-radius: 15px;
-  min-width: 600px;
-  margin: 0 auto;
+  max-width: 0 auto;
 }
 
 #Poster {
-  border-radius: 15px;
-  max-width: 500px;
-  padding: 15px;
+  display: flex;
+  max-width: 70%;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 ul {
+  padding-left: 30px;
+  padding-top: 30px;
+  margin: 0 auto;
   color: #c5c6c7;
   line-height: 2.2;
   max-width: 500px;
