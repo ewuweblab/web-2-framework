@@ -14,6 +14,7 @@
 /* Centered all containers for consistency across display types */
 #main {
   margin: 0 auto;
+  max-width: 100%;
 }
 
 /* Will change to Font/Glphys is can't fig-out how to scale for media queries */
@@ -21,18 +22,18 @@
   margin: 0 auto;
   display: block;
   padding: 25px 0px 0px;
-  max-width: 400px;
+  max-width: 100%;
 }
 
 /* Still NOT WORKING in Gitbub Version - works well in VSC & Codepen versions */
 #player {
   display: flex;
-  min-width: 100%;
+  max-width: 100%;
 }
 
 #trailer {
   padding: 50px 25px;
-  min-width: 100%;
+  max-width: 100%;
 }
 
 .blockquoteDIV {
@@ -81,6 +82,7 @@
   letter-spacing: 1.45px;
   line-height: 1.6;
   color: #c5c6c7;
+  max-width: 100%;
 }
 
 /* H1 Starring in Magneto */
@@ -189,6 +191,7 @@ a:focus {
 
 /* Copy Right to Movie Company */
 footer {
+  max-width: 100%
   font-family: 'Oswald', sans-serif;
   font-weight: 200;
   font-size: 1rem;
@@ -224,26 +227,27 @@ footer {
 }
 
 /* Mobile - Tablet 0 to 960px */
-@media (max-width: 1100px) { 
+@media (max-width: 960px) { 
     
     .img {
     max-width: 150px;
     margin: 0 auto;
 }
     .plyr, #trailer {
-    width: 100%;
+    max-width: 100%;
   }
   .aside {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    max-width: 100%;
   }
   a, ul { 
       font-size: 1rem;
       line-height: 2;
       padding-top: 20px;
       padding-bottom: 20px;
-      width: 500px;
+      max-width: 500px;
   }
   .MoreInsights,
   .Starring,
@@ -260,8 +264,8 @@ footer {
 }
 
 /* Tablet 
-  26em (416 pixels) to 72em (1,152 pixels)
-*/
+  26em (416 pixels) to 72em (1,152 pixels)*/
+
 @media only screen and (min-width: 26em)  {
 
   .blockquote, .info {
@@ -270,13 +274,13 @@ footer {
 }
 
 /* Desktop 
-   72em (1,152 pixels) to 90em (1440 pixels)
-*/
+   72em (1,152 pixels) to 90em (1440 pixels)*/
+
 @media screen and (min-width: 72em)  { 
 
-  .blockquote, .info {
+  /*.blockquote, .info {
        max-width: 1200px;
-  }
+  }*/
 
   /*  Control positionof player  */
   #trailer {
