@@ -34,7 +34,6 @@
   min-width: 100%;
 }
 
-
 .blockquoteDIV {
   margin: 0 auto;
   display: block;
@@ -53,8 +52,8 @@
 
 /* H1 Synopsis in Magneto */
 .Synopsis {
-  margin-top: 0px;
-  padding: 0px 0px 40px 0px;
+  margin-top: 0;
+  padding: 0px 0px 25px 0px;
   text-shadow: 1px 1px 4px #c5c6c7;
   font-family: Magneto;
   font-style: normal;
@@ -85,7 +84,7 @@
 
 /* H1 Starring in Magneto */
 .Starring {
-  padding: 10px 0px 40px 0px;
+  padding: 10px 0px 25px 0px;
   text-shadow: 1px 1px 4px #c5c6c7;
   font-family: Magneto;
   font-style: normal;
@@ -98,17 +97,17 @@
 
 .cast {  
   margin-bottom: 0;
-  color: #c5c6c7;
+  color: #8e341b;
   display: flex;
   flex-wrap: wrap;
-  font-family: 'Rye', cursive;
+  font-family: 'Rye', 'Mesquite Std';
   font-size: 1.5rem;
-  letter-spacing: .5px;
+  letter-spacing: 1.25px;
   text-align: center;
 }
 
 .cast:hover {
-  color: #8e341b;
+  color: #c5c6c7;
 }
 
 /* Lead Actors Styling */
@@ -123,9 +122,10 @@
   border-image-source: url(https://www.dropbox.com/s/cmfq4sk3co0a0sk/racecar-clipart-banner-13-transparent.png?raw=1)  
   }
 
+
 /* Sources & Add'l content bullet links near bottom */
 .MoreInsights {
-  padding: 0px 0px 40px 0px;
+  padding: 0px 0px 25px 0px;
   text-shadow: 1px 1px 4px #c5c6c7;
   font-family: Magneto;
   font-style: normal;
@@ -135,30 +135,35 @@
   letter-spacing: 0.02em;
   color: #8E341B;
 }
-
+ 
 aside {
-  padding: 5px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
   background-color: rgba(150, 0, 0, 0.3);
   box-shadow: 5px 5px #c5c6c7;
   border-radius: 15px;
-  max-width: 600px;
+  min-width: 600px;
+  margin: 0 auto;
 }
 
-/* Source Link Container */
-.Sources {
-  max-width: 600px;  
-}  
+#Poster {
+  border-radius: 15px;
+  max-width: 500px;
+  padding: 15px;
+}
 
 ul {
   color: #c5c6c7;
   line-height: 2.2;
+  max-width: 500px;
 }
 
 /* Source link styling */
 a {
     color: #c5c6c7;
     font-family: 'Rye', cursive;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 a:hover,
