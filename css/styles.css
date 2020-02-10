@@ -13,11 +13,12 @@
 
 #header {
   margin: 0 auto;
+  padding-bottom: 100px;
   max-width: 1000px;
 }
 
-/* credit for the bowling balls, lanes & pins vectors - free to use, no restrictions to: <a href="https://www.vecteezy.com/free-vector/background">Background Vectors by Vecteezy</a> 
-"The Big Lebowski" Logo was created by Erik Stewart-Smith in Figma sty ling of Adobe Fonts Magneto & Mesquite */
+/* Attribution for the bowling balls, lanes & pins vectors - free to use, no restrictions to: <a href="https://www.vecteezy.com/free-vector/background">Background Vectors by Vecteezy</a> 
+"The Big Lebowski" Logo was created by Erik Stewart-Smith in Figma styling of Adobe Fonts Magneto & Mesquite */
 .headerBG {
   display: flex;
   margin: 0 auto;
@@ -42,14 +43,17 @@
 
 /* Still NOT WORKING in Gitbub Version - works well in VSC & Codepen versions */
 #player {
-  display: flex;
+  /*display: flex;*/
   max-width: 100%;
 }
 
-/* Attribution for Bowling Icons: <a href="https://www.vecteezy.com/free-vector/background">Background Vectors by Vecteezy</a> */
+/* Background image inspired by the movie */
 #trailer {
+  display: block;
   max-width: 100%;
-  padding: 50px 25px;
+  background: #D0E4F5 url("https://www.dropbox.com/s/vqglvab9cyubmct/AbstractDiamondPattern_BigLewbowski.png?raw=1") no-repeat scroll 50% 50%;
+  background-size: 100%;
+  
 }
 
 .blockquoteDIV {
