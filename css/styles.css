@@ -198,12 +198,15 @@ box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0,
 ul {
   margin: 0 auto;
   color: #e5e5e5;
-  line-height: 2.5;
-  max-width: 525px; 
+  line-height: 2.25;
+  max-width: 525px;
+  list-style-type: circle;
+ list-style-position: outside;
+ list-style-image: none;
 }
 
 li {
-  padding: 6px;
+  padding: 7px;
 }
 
 /* Source link styling */
@@ -211,7 +214,8 @@ a {
     color: #e5e5e5;
     font-family: 'Rye', cursive;
     font-size: 1.35rem;
-    letter-spacing: .05em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
 }
 
 /* Links Styling in #Sources Section */
@@ -322,6 +326,361 @@ a:focus {
   /*.blockquote, .info {
        max-width: 1200px;
   }*/
+@import url("https://use.typekit.net/jfz2kae.css");
+@import url('https://fonts.googleapis.com/css?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400&display=swap');
+
+
+#body { 
+  background-color: #000000;
+  margin: 25px 25px;
+  display: grid;
+  grid-template-columns: 1fr; 
+}
+
+#header {
+  margin: 0 auto;
+  padding-bottom: 100px;
+  max-width: 1000px;
+}
+
+/* Attribution for the bowling balls, lanes & pins vectors - free to use, no restrictions https://www.vecteezy.com/free-vector/background">Background Vectors by Vecteezy. 
+"The Big Lebowski" Logo was designed (incl. putting it all together, styling, scale, position, context, colors ... it was really fun - for a change - to just dive-in & see how far it goes ;-) by Erik Stewart-Smith in Figma & Adobe Illustrator */
+.headerBG {
+  display: flex;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 20px;
+  max-width: 100%;  
+}
+
+/* Centered all containers for consistency across display types */
+#main {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Will change to Font/Glphys is can't fig-out how to scale for media queries */
+.svgMainTitle {
+  margin: 0 auto;
+  display: block;
+  padding: 25px 0px 0px;
+  max-width: 100%;
+}
+
+/* Still NOT WORKING in Gitbub Version - works well in VSC & Codepen versions */
+#player {
+  /*display: flex;*/
+  max-width: 100%;
+}
+
+/* Background image inspired by the movie */
+#trailer {
+  display: block;
+  max-width: 100%;
+  background: #D0E4F5 url("https://www.dropbox.com/s/vqglvab9cyubmct/AbstractDiamondPattern_BigLewbowski.png?raw=1") no-repeat scroll 50% 50%;
+  background-size: 100%;
+  
+}
+
+.blockquoteDIV {
+  margin: 0 auto;
+  display: block;
+  max-width: 1200px;
+}
+
+/* A quote of main character "The Dude" from the movie */
+.blockquote {
+  font-size: 2rem;
+  text-shadow: 2px 2px #8e341b;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #e5e5e5;
+  font-family: 'Rye', cursive;
+  text-align: center;
+}  
+
+/* This is the Dude's 'signature block' for the page theme */
+.blockquote2 {
+  font-size: 2rem;
+  text-shadow: 1.8px 1.8px #8e341b;
+  line-height: 1.5rem;
+  letter-spacing: 1.5px;
+  color: #f2f2f2;
+  font-family: 'Magneto', cursive;
+  text-align: center;
+}  
+
+/* H1 Synopsis in Magneto */
+.Synopsis {
+  margin-top: 0;
+  text-shadow: 1px 1px 4px #e5e5e5;
+  font-family: Magneto;
+  font-size: 3.2rem;
+  line-height: 48px;
+  letter-spacing: 0.03em;
+  color: #8E341B;
+}
+
+/* Synopsis container content */
+.info {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 30px 10px;
+}
+
+/* Synopsis content */
+.description {
+  margin-bottom: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  letter-spacing: 1.45px;
+  line-height: 1.7;
+  color: #e5e5e5;
+  max-width: 100%;
+}
+
+/* H1 Starring in Magneto */
+.Starring {
+  text-shadow: 1px 1px 4px #e5e5e5;
+  font-family: Magneto;
+  font-size: 3.2rem;
+  line-height: 48px;
+  letter-spacing: 0.03em;
+  color: #8E341B;
+}
+
+/* The lead actors name tags under their photos */
+.cast {  
+  margin-bottom: 0;
+  color: #e5e5e5;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Rye', 'Mesquite Std';
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.cast:hover {
+  color: #8e341b
+}
+
+/* Found this "Border Image Generator" by Mozilla to stylize the Actor's images: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Background_and_Borders/Border-image_generator.
+The checkered border pattern was mine */
+.img {
+  padding: 5px;
+  border-radius: 20px;
+  width: 200px;
+  border-image-slice: 72 72 72 72 fill;
+  border-image-width: 15px 15px 15px 15px;
+  border-image-outset: 15px 15px 15px 15px;
+  border-image-repeat: round round;
+  border-image-source: url(https://www.dropbox.com/s/cmfq4sk3co0a0sk/racecar-clipart-banner-13-transparent.png?raw=1)  
+  }
+
+
+/* Links, Sources Add'l Content Container */
+#Sources {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1300px;
+} 
+
+/* Sources & Add'l content bullet links near bottom */
+.MoreInsights {
+  text-shadow: 1px 1px 4px #e5e5e5;
+  font-family: Magneto;
+  font-size: 3.2rem;
+  line-height: 48px;
+  letter-spacing: 0.03em;
+  color: #8E341B;
+}
+ 
+/* Credit For Box Border Effects: https://html-css-js.com/css/generator/box-shadow/ */
+.aside {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 15px;
+  background-color: rgba(150, 0, 0, 0.3);
+  border-radius: 15px;
+  max-width: 0 auto; 
+  align-items: center;
+  -webkit-box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0, 10px 10px 0 #000, 20px 10px 0 #F0F0F0, 30px 10px 0 #000, 0 20px 0 #000, 10px 20px 0 #F0F0F0, 20px 20px 0 #000, 30px 20px 0 #F0F0F0, 0 30px 0 #F0F0F0, 10px 30px 0 #000, 20px 30px 0 #F0F0F0, 30px 30px 0 #000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0, 10px 10px 0 #000, 20px 10px 0 #F0F0F0, 30px 10px 0 #000, 0 20px 0 #000, 10px 20px 0 #F0F0F0, 20px 20px 0 #000, 30px 20px 0 #F0F0F0, 0 30px 0 #F0F0F0, 10px 30px 0 #000, 20px 30px 0 #F0F0F0, 30px 30px 0 #000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+/* Image used for official movie poster (copyright is for Polygram Filmed Entertainment, 1998) link/source here: https://image.tmdb.org/t/p//w780//m5XQKhiyRVNlIGYwJx1kUFGyrRZ.jpg */
+#Poster {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 70%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0 auto;
+  color: #e5e5e5;
+  line-height: 2.25;
+  max-width: 525px;
+  list-style-type: circle;
+ list-style-position: outside;
+ list-style-image: none;
+}
+
+li {
+  padding: 7px;
+}
+
+/* Source link styling */
+a {
+    color: #e5e5e5;
+    font-family: 'Rye', cursive;
+    font-size: 1.35rem;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+/* Links Styling in #Sources Section */
+a:hover,
+a:focus {
+    color: #ff7f00;
+}
+
+/* Copy Right to Movie Company */
+.footer {
+  max-width: 100%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: 1.45px;
+  line-height: 1.6;
+  margin: 150px 0px;
+  color: #e5e5e5;
+}
+
+/* Example: Change color of play button */
+.plyr__control--overlaid {
+  background: #D2691E;
+}
+/* button on focus */
+.plyr--video .plyr__control:hover {
+  background: #D2691E;
+}
+
+/* Example: Change color of progress bar */
+.plyr--full-ui input[type="range"] {
+  color: #D2691E;
+}
+
+/* Example: Change player controls */
+.plyr--video .plyr__controls {
+    color: #e5e5e5;
+  font-size: 2em;
+}
+
+/* Example: Change playtime font size  */
+.plyr__time {
+    font-size: 24px;
+}
+
+/* Mobile - Tablet 0 to 960px - Screen Size Adjustments */
+@media (max-width: 960px) { 
+    
+   .img {
+    max-width: 175px;
+    margin: 0 auto;
+  }
+    
+  .plyr, #trailer {
+    max-width: 100%;
+  }
+  
+  .aside {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  
+  a, ul { 
+      font-size: 1rem;
+      line-height: 2;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      max-width: 500px;
+ 
+  }
+  .MoreInsights,
+  .Starring,
+  .Synopsis {
+      font-size: 2.8rem;
+  
+  }
+  .cast,
+  .description {
+      font-size: 1.3rem;
+ 
+  }
+  .blockquote {
+      font-size: 1.7rem;
+  }
+ 
+  .blockquote2 {
+      font-size: 1.5rem;
+  }
+}
+
+/* Tablet 
+  26em (416 pixels) to 72em (1,152 pixels)*/
+
+@media only screen and (min-width: 26em)  {
+
+  .blockquote, .info {
+       max-width: 900px;
+        }
+}
+
+/* Desktop 
+   72em (1,152 pixels) to 90em (1440 pixels)*/
+
+@media screen and (min-width: 72em)  { 
+
+  /*.blockquote, .info {
+       max-width: 1200px;
+  }*/
+
+  /*  Control positionof player  */
+  #trailer {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  /* Set Width of Player */
+  .plyr {
+    width: 80%;
+  }
+}
+
+/* Wide Desktop: 
+  Greater than 90em (1440px)
+*/
+@media screen and (min-width: 90em) { 
+
+  .blockquote, .info {
+       max-width: 1200px;
+  }
+  
+   /* Set Width of Player */
+  .plyr {
+    width: 60%;
+  }
+
+}
 
   /*  Control positionof player  */
   #trailer {
