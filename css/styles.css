@@ -16,15 +16,15 @@
   max-width: 1000px;
 }
 
+/* credit for the bowling balls, lanes & pins vectors - free to use, no restrictions to: <a href="https://www.vecteezy.com/free-vector/background">Background Vectors by Vecteezy</a> 
+"The Big Lebowski" Logo was created by Erik Stewart-Smith in Figma sty ling of Adobe Fonts Magneto & Mesquite */
 .headerBG {
   display: flex;
   margin: 0 auto;
   padding: 5px;
   border-radius: 20px;
-  max-width: 100%;
-  
+  max-width: 100%;  
 }
-
 
 /* Centered all containers for consistency across display types */
 #main {
