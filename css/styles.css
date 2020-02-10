@@ -11,6 +11,21 @@
   grid-template-columns: 1fr; 
 }
 
+#header {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.headerBG {
+  display: flex;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 20px;
+  max-width: 100%;
+  
+}
+
+
 /* Centered all containers for consistency across display types */
 #main {
   margin: 0 auto;
@@ -31,9 +46,10 @@
   max-width: 100%;
 }
 
+/* Attribution for Bowling Icons: <a href="https://www.vecteezy.com/free-vector/background">Background Vectors by Vecteezy</a> */
 #trailer {
-  padding: 50px 25px;
   max-width: 100%;
+  padding: 50px 25px;
 }
 
 .blockquoteDIV {
@@ -44,7 +60,7 @@
 
 .blockquote {
   font-size: 2rem;
-  text-shadow: 1.9px 1.9px #8e341b;
+  text-shadow: 2px 2px #8e341b;
   line-height: 1.5;
   letter-spacing: 1px;
   color: #e5e5e5;
@@ -53,9 +69,9 @@
 }  
 
 .blockquote2 {
-  font-size: 1.3rem;
-  text-shadow: 1.25px 1.25px #8e341b;
-  line-height: 1.9;
+  font-size: 1.5rem;
+  text-shadow: 1.5px 1.25px #8e341b;
+  line-height: 2.2rem;
   letter-spacing: 1.5px;
   color: #f2f2f2;
   font-family: 'Magneto', cursive;
@@ -65,14 +81,11 @@
 /* H1 Synopsis in Magneto */
 .Synopsis {
   margin-top: 0;
-  padding: 0px 0px 15px 0px;
   text-shadow: 1px 1px 4px #e5e5e5;
   font-family: Magneto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 2.9rem;
-  line-height: 1.25%;
-  letter-spacing: 0.02em;
+  font-size: 3.2rem;
+  line-height: 48px;
+  letter-spacing: 0.03em;
   color: #8E341B;
 }
 
@@ -88,23 +101,20 @@
   margin-bottom: 0;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   letter-spacing: 1.45px;
-  line-height: 1.6;
+  line-height: 1.7;
   color: #e5e5e5;
   max-width: 100%;
 }
 
 /* H1 Starring in Magneto */
 .Starring {
-  padding: 10px 0px 20px 0px;
   text-shadow: 1px 1px 4px #e5e5e5;
   font-family: Magneto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 2.9rem;
-  line-height: 1.25%;
-  letter-spacing: 0.02em;
+  font-size: 3.2rem;
+  line-height: 48px;
+  letter-spacing: 0.03em;
   color: #8E341B;
 }
 
@@ -115,7 +125,7 @@
   flex-wrap: wrap;
   font-family: 'Rye', 'Mesquite Std';
   font-size: 1.5rem;
-  letter-spacing: 1.25px;
+  letter-spacing: 1px;
   text-align: center;
 }
 
@@ -136,7 +146,7 @@
   }
 
 
-/* Source Link Container */
+/* Links, Sources Add'l Content Container */
 #Sources {
   display: flex;
   flex-wrap: wrap;
@@ -146,14 +156,11 @@
 
 /* Sources & Add'l content bullet links near bottom */
 .MoreInsights {
-  padding: 0px 0px 10px 0px;
   text-shadow: 1px 1px 4px #e5e5e5;
   font-family: Magneto;
-  font-style: normal;
-  font-weight: bold;
   font-size: 3.2rem;
   line-height: 48px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   color: #8E341B;
 }
  
@@ -167,7 +174,7 @@
   border-radius: 15px;
   max-width: 0 auto; 
   align-items: center;
--webkit-box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0, 10px 10px 0 #000, 20px 10px 0 #F0F0F0, 30px 10px 0 #000, 0 20px 0 #000, 10px 20px 0 #F0F0F0, 20px 20px 0 #000, 30px 20px 0 #F0F0F0, 0 30px 0 #F0F0F0, 10px 30px 0 #000, 20px 30px 0 #F0F0F0, 30px 30px 0 #000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  -webkit-box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0, 10px 10px 0 #000, 20px 10px 0 #F0F0F0, 30px 10px 0 #000, 0 20px 0 #000, 10px 20px 0 #F0F0F0, 20px 20px 0 #000, 30px 20px 0 #F0F0F0, 0 30px 0 #F0F0F0, 10px 30px 0 #000, 20px 30px 0 #F0F0F0, 30px 30px 0 #000, 5px 5px 15px 5px rgba(0,0,0,0); 
 box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0, 10px 10px 0 #000, 20px 10px 0 #F0F0F0, 30px 10px 0 #000, 0 20px 0 #000, 10px 20px 0 #F0F0F0, 20px 20px 0 #000, 30px 20px 0 #F0F0F0, 0 30px 0 #F0F0F0, 10px 30px 0 #000, 20px 30px 0 #F0F0F0, 30px 30px 0 #000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
@@ -194,40 +201,41 @@ a {
     letter-spacing: .05em;
 }
 
+/* Links Styling in #Sources Section */
 a:hover,
 a:focus {
     color: #ff7f00;
 }
 
 /* Copy Right to Movie Company */
-footer {
+.footer {
   max-width: 100%;
   font-family: 'Oswald', sans-serif;
   font-weight: 200;
   font-size: 1rem;
   letter-spacing: 1.45px;
   line-height: 1.6;
-  margin: 100px 0px;
+  margin: 150px 0px;
   color: #e5e5e5;
 }
 
 /* Example: Change color of play button */
 .plyr__control--overlaid {
-  background: #E8A87C;
+  background: #D2691E;
 }
 /* button on focus */
 .plyr--video .plyr__control:hover {
-  background: #F79E02;
+  background: #D2691E;
 }
 
 /* Example: Change color of progress bar */
 .plyr--full-ui input[type="range"] {
-  color: #E8A87C;
+  color: #D2691E;
 }
 
 /* Example: Change player controls */
 .plyr--video .plyr__controls {
-    color: #E8A87C;
+    color: #e5e5e5;
   font-size: 2em;
 }
 
