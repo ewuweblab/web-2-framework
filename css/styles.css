@@ -17,8 +17,8 @@
   max-width: 1000px;
 }
 
-/* Attribution for the bowling balls, lanes & pins vectors - free to use, no restrictions to: <a href="https://www.vecteezy.com/free-vector/background">Background Vectors by Vecteezy</a> 
-"The Big Lebowski" Logo was created by Erik Stewart-Smith in Figma styling of Adobe Fonts Magneto & Mesquite */
+/* Attribution for the bowling balls, lanes & pins vectors - free to use, no restrictions https://www.vecteezy.com/free-vector/background">Background Vectors by Vecteezy. 
+"The Big Lebowski" Logo was created by Erik Stewart-Smith in Figma & Adobe Illustrator */
 .headerBG {
   display: flex;
   margin: 0 auto;
@@ -62,6 +62,7 @@
   max-width: 1200px;
 }
 
+/* A quote of main character "The Dude" from the movie */
 .blockquote {
   font-size: 2rem;
   text-shadow: 2px 2px #8e341b;
@@ -72,6 +73,7 @@
   text-align: center;
 }  
 
+/* This is the Dude's signature block for the page theme */
 .blockquote2 {
   font-size: 1.5rem;
   text-shadow: 1.5px 1.25px #8e341b;
@@ -122,6 +124,7 @@
   color: #8E341B;
 }
 
+/* The lead actors name tags under their photos */
 .cast {  
   margin-bottom: 0;
   color: #e5e5e5;
@@ -137,7 +140,8 @@
   color: #8e341b
 }
 
-/* Found this "Border Image Generator" by Mozilla to stylize the Actor's images: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Background_and_Borders/Border-image_generator  */
+/* Found this "Border Image Generator" by Mozilla to stylize the Actor's images: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Background_and_Borders/Border-image_generator.
+The checkered border pattern was mine */
 .img {
   padding: 5px;
   border-radius: 20px;
@@ -168,7 +172,7 @@
   color: #8E341B;
 }
  
-/* CREDIT For Box Border Effects: https://html-css-js.com/css/generator/box-shadow/ */
+/* Credit For Box Border Effects: https://html-css-js.com/css/generator/box-shadow/ */
 .aside {
   margin: auto;
   display: grid;
@@ -182,6 +186,7 @@
 box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0, 10px 10px 0 #000, 20px 10px 0 #F0F0F0, 30px 10px 0 #000, 0 20px 0 #000, 10px 20px 0 #F0F0F0, 20px 20px 0 #000, 30px 20px 0 #F0F0F0, 0 30px 0 #F0F0F0, 10px 30px 0 #000, 20px 30px 0 #F0F0F0, 30px 30px 0 #000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
+/* Image used for poster link/source here: https://image.tmdb.org/t/p//w780//m5XQKhiyRVNlIGYwJx1kUFGyrRZ.jpg */
 #Poster {
   display: flex;
   flex-wrap: wrap;
@@ -248,7 +253,7 @@ a:focus {
     font-size: 24px;
 }
 
-/* Mobile - Tablet 0 to 960px */
+/* Mobile - Tablet 0 to 960px - Screen Size Adjustments */
 @media (max-width: 960px) { 
     
    .img {
