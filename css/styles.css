@@ -18,7 +18,7 @@
 }
 
 /* Attribution for the bowling balls, lanes & pins vectors - free to use, no restrictions https://www.vecteezy.com/free-vector/background">Background Vectors by Vecteezy. 
-"The Big Lebowski" Logo was created by Erik Stewart-Smith in Figma & Adobe Illustrator */
+"The Big Lebowski" Logo was designed (incl. putting it all together, styling, scale, position, context, colors ... it was really fun - for a change - to just dive-in & see how far it goes ;-) by Erik Stewart-Smith in Figma & Adobe Illustrator */
 .headerBG {
   display: flex;
   margin: 0 auto;
@@ -73,7 +73,7 @@
   text-align: center;
 }  
 
-/* This is the Dude's signature block for the page theme */
+/* This is the Dude's 'signature block' for the page theme */
 .blockquote2 {
   font-size: 2rem;
   text-shadow: 1.8px 1.8px #8e341b;
@@ -186,7 +186,7 @@ The checkered border pattern was mine */
 box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0, 10px 10px 0 #000, 20px 10px 0 #F0F0F0, 30px 10px 0 #000, 0 20px 0 #000, 10px 20px 0 #F0F0F0, 20px 20px 0 #000, 30px 20px 0 #F0F0F0, 0 30px 0 #F0F0F0, 10px 30px 0 #000, 20px 30px 0 #F0F0F0, 30px 30px 0 #000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
-/* Image used for poster link/source here: https://image.tmdb.org/t/p//w780//m5XQKhiyRVNlIGYwJx1kUFGyrRZ.jpg */
+/* Image used for official movie poster (copyright is for Polygram Filmed Entertainment, 1998) link/source here: https://image.tmdb.org/t/p//w780//m5XQKhiyRVNlIGYwJx1kUFGyrRZ.jpg */
 #Poster {
   display: flex;
   flex-wrap: wrap;
