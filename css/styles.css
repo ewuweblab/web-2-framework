@@ -162,7 +162,6 @@ The checkered border pattern was mine */
   max-width: 1300px;
 } 
 
-/* Sources & Add'l content bullet links near bottom */
 .MoreInsights {
   text-shadow: 1px 1px 4px #e5e5e5;
   font-family: Magneto;
@@ -178,7 +177,7 @@ The checkered border pattern was mine */
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 15px;
-  background-color: rgba(150, 0, 0, 0.3);
+  background-color: rgba(179, 4, 4, 0.3);
   border-radius: 15px;
   max-width: 0 auto; 
   align-items: center;
@@ -195,7 +194,7 @@ box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0,
   margin: 0 auto;
 }
 
-ul {
+.SourcesList {
   margin: 0 auto;
   color: #e5e5e5;
   line-height: 2.25;
@@ -206,7 +205,7 @@ ul {
 }
 
 li {
-  padding: 7px;
+  padding: 6px;
 }
 
 /* Source link styling */
@@ -281,7 +280,7 @@ a:focus {
   }
   
   a, ul { 
-      font-size: 1rem;
+      font-size: 1.1rem;
       line-height: 2;
       padding-top: 20px;
       padding-bottom: 20px;
