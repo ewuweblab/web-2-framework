@@ -23,19 +23,31 @@ main{
 h1{
   color:red;
   font-family: 'Anton', sans-serif;
-  font-size:75px;
+  font-size:100px;
+  padding-left:500px;
+  transition: all .2s ease-in-out;
+}
+h1:hover
+{
+  transform:scale(1.2);
 }
 blockquote{
   color:red;
   font-size:75px;
   font-family: 'Anton', sans-serif;
   text-align:center;
+  transition: all .2s ease-in-out;
   
 }
+blockquote:hover
+{
+  transform:scale(1.2);
+}
 .backImage{
-  right:475px;
-  width: 800px;
-  height:800px;
+  display:block;
+  margin-left: 300px;
+  margin-right: auto;
+  width: 60%;
   position:absolute;
   z-index:0;
   opacity:.2;
@@ -44,17 +56,30 @@ blockquote{
 p{
   color:red;
   font-family: 'Anton', sans-serif;
+  font-size:38px;
 }
 h2{
   color:red;
   font-family: 'Anton', sans-serif;
+  transition: all .2s ease-in-out;
+}
+h2:hover
+{
+  transform:scale(1.2);
 }
 img{
-  width:350px;
+  width:500px;
   
+  border-style:outset;
+  border-width:7px;
+  transition: all .2s ease-in-out;
 }
+img:hover{
+  transform:scale(1.2);
+ }
 div{
-  width:85%;
+  width:90%;
+  padding-left:300px;
 }
 
 /*  Custom UI Controls */
