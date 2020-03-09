@@ -62,6 +62,7 @@ h2{
   color:red;
   font-family: 'Anton', sans-serif;
   transition: all .2s ease-in-out;
+  font-size:34px;
 }
 h2:hover
 {
@@ -80,6 +81,9 @@ img:hover{
 div{
   width:90%;
   padding-left:300px;
+}
+script{
+  font-size:38px;
 }
 
 /*  Custom UI Controls */
