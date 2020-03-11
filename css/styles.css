@@ -587,18 +587,14 @@ a:focus {
     font-size: 24px;
 }
 
-/* Mobile - Tablet 0 to 960px - Screen Size Adjustments */
-@media (max-width: 960px) { 
+/* Mobile 0 to 26em (416 pixels) */
+@media only screen and (min-width: 0) { 
     
    .img {
     max-width: 175px;
     margin: 0 auto;
   }
-    
-  .plyr, #trailer {
-    max-width: 100%;
-  }
-  
+
   .aside {
     display: flex;
     justify-content: space-between;
@@ -638,11 +634,67 @@ a:focus {
 /* Tablet 
   26em (416 pixels) to 72em (1,152 pixels)*/
 
-@media only screen and (min-width: 26em)  {
+  @media only screen and (min-width: 26em)  {
+ 
+ 
+  /* Set Width of Player */
+  .plyr {
+    width: 30%;
+  }
+    #trailer {
+    display: flex;
+    justify-content: center; 
+  }
 
-  .blockquote, .info {
-       max-width: 900px;
-        }
+  .info {
+    max-width: 600px;
+
+  }
+
+  .blockquoteDIV {
+       max-width: 800px;
+  }
+
+  .img {
+    max-width: 175px;
+    margin: 0 auto;
+  }
+
+  .aside {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  
+  a, ul { 
+      font-size: 1rem;
+      line-height: 2;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      max-width: 500px;
+ 
+  }
+  .MoreInsights,
+  .Starring,
+  .Synopsis {
+      font-size: 2.8rem;
+  
+  }
+  .cast,
+  .description {
+      font-size: 1.3rem;
+ 
+  }
+  .blockquote {
+      font-size: 1.7rem;
+  }
+ 
+  .blockquote2 {
+    font-size: 1.5rem;
+    line-height: 1.45;
+  }
+
 }
 
 /* Desktop 
@@ -650,48 +702,25 @@ a:focus {
 
 @media screen and (min-width: 72em)  { 
 
-  /*.blockquote, .info {
-       max-width: 1200px;
-  }*/
-
-  /*  Control positionof player  */
+  /*  Control position of player  */
   #trailer {
     display: flex;
     justify-content: center; 
   }
-  
   /* Set Width of Player */
-  .plyr {
-    width: 80%;
-  }
-}
-
-/* Wide Desktop: 
-  Greater than 90em (1440px)
-*/
-@media screen and (min-width: 90em) { 
-
-  .blockquote, .info {
-       max-width: 1200px;
-  }
-  
-   /* Set Width of Player */
   .plyr {
     width: 60%;
   }
-
-}
-
-  /*  Control positionof player  */
-  #trailer {
-    display: flex;
-    justify-content: center; 
-  }
   
-  /* Set Width of Player */
-  .plyr {
-    width: 80%;
+  .info {
+    max-width: 800px;
+
   }
+
+  .blockquoteDIV {
+       max-width: 1000px;
+  }
+
 }
 
 /* Wide Desktop: 
@@ -699,8 +728,13 @@ a:focus {
 */
 @media screen and (min-width: 90em) { 
 
-  .blockquote, .info {
-       max-width: 1200px;
+  .info {
+    max-width: 800px;
+
+  }
+
+  .blockquoteDIV {
+       max-width: 1000px;
   }
   
    /* Set Width of Player */
