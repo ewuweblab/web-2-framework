@@ -284,9 +284,18 @@ a:focus {
   
   .SourcesList {
     margin: 0 auto;
+    padding: 10px;
     max-width: 90%;
   }
 
+  #Poster {
+    max-width: 100%;
+  }
+
+  .Poster {
+    max-width: 100%;
+  }
+  
   a, ul { 
       font-size: .8rem;
       line-height: 2;
@@ -306,7 +315,7 @@ a:focus {
 
   .description {
       max-width: 100%;
-      font-size: 1rem;
+      font-size: 1.08rem;
       line-height: 2;
   }
  
@@ -314,13 +323,13 @@ a:focus {
     max-width: 100%;
 }
   .blockquote {
-      font-size: 1.25rem;
+      font-size: 1.6rem;
       line-height: 1.65;
   }
  
   .blockquote2 {
-    font-size: 1.2rem;
-    line-height: 1.5;
+    font-size: 1.25rem;
+    line-height: 1.7;
   }
 }
 
@@ -365,7 +374,7 @@ a:focus {
   }
 
   #Sources {
-    padding-top: 15px;
+    padding: 15px;
     max-width: 70%;
   }
 
@@ -430,7 +439,7 @@ line-height: 1;
 }
 
   #Sources {
-    padding-top: 15px;
+    padding: 15px;
     max-width: 80%;
   }
 
@@ -507,7 +516,7 @@ line-height: 1;
 }
 
 #Sources {
-  padding-top: 15px;
+  padding: 15px;
   max-width: 70%;
 }
 
