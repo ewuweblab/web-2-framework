@@ -272,7 +272,7 @@ a:focus {
 
   #Sources {
     padding-top: 15px;
-    max-width: 100%;
+    max-width: 85%;
   }
 
   .aside {
@@ -285,15 +285,15 @@ a:focus {
   .SourcesList {
     margin: 0 auto;
     padding: 10px;
-    max-width: 90%;
+    max-width: 80%;
   }
 
   #Poster {
-    max-width: 100%;
+    max-width: 90%;
   }
 
   .Poster {
-    max-width: 100%;
+    max-width: 90%;
   }
   
   a, ul { 
@@ -306,7 +306,7 @@ a:focus {
   .MoreInsights,
   .Starring,
   .Synopsis {
-      font-size: 2.6rem;
+      font-size: 2.2rem;
   }
 
   .cast {
@@ -383,11 +383,11 @@ a:focus {
     display: flex;
     align-items: space-between;
     flex-direction: column;
-    max-width: 100%;
+    max-width: 85%;
   }
 
   .SourcesList {
-    max-width: 100%;
+    max-width: 95%;
   }
 
   #Poster {
@@ -395,7 +395,7 @@ a:focus {
   }
 
   .Poster {
-    max-width: 100%;
+    max-width: 80%;
   }
 
   a, ul {
@@ -408,7 +408,7 @@ a:focus {
   .MoreInsights,
   .Starring,
   .Synopsis {
-      font-size: 2.8rem;
+      font-size: 2.6rem;
   
   }
   .cast {
