@@ -315,7 +315,7 @@ a:focus {
 
   .description {
       max-width: 100%;
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       line-height: 2;
   }
  
@@ -328,7 +328,7 @@ a:focus {
   }
  
   .blockquote2 {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     line-height: 1.7;
   }
 }
