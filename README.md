@@ -1,7 +1,7 @@
 # Part 5: Version 2.0
 Version 2.0 "Design is iterative. Ideas need to incubate." -Professor P. Colin Manikoth | Web 2 | Winter 2020
 
-#Revisions to Project
+## Revisions to Project
 - Went through most of the code for quality control, syntax, & ensure credits for a number of elements I borrowed from other designers/developers and adapted as applicable to this project
 - Recompiled all of the media queries (wide desktop, desktop, tablet and mobile) as there were so many issues it was easier to just start over
 - Made adjustments to the #trailer container's large BG image so the main graphic pattern (black & white checkers and diamonds) shows enough on both sides of the .plyr video player as it is effective when viewing the video in creating a sense you're somewhat immersed in the thematic elements of the cult flick. I set the image at the size & perspective needed to blend/reflect what the same patterns showed as the trailer plays
