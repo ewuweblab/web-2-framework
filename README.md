@@ -8,10 +8,10 @@ Version 2.0 "Design is iterative. Ideas need to incubate." -Professor P. Colin M
 - Stayed with the single column, top-down layout as I think it has the best impact when viewed from the top down versus left to right or diagonal w/other layouts with 1 exception: the add'l sources/movie info links + official movie poster are 2 column until flex direction change for smaller screens. Also, made sure center the section heads. 
 - Resisted the tempation to add more stuff / "decorate" as I really think it's just right - anymore will get annoying &/or reduce impact of each section.  
 
-## Future Revisions:
+## Future Revisions & Plan for Web 3 in the Fall 2020:
 I want to totally re-design it between now or during Web 3 when I take it next Fall 2020 (using the tools introduced toward end of this course). But first, I decided to post-pone Web 3 so that I can use the spring + summer to get more proficient w/code, especially javascript + practice as many layouts & features we were exposed to that I've saved/linked/staged for later. I really struggled w/the animations phase & pretty much all the Js stuff -- wasn't anything wrong w/the instruction, in fact, it was the instruction & all the tips, examples, walk-throughs & links to the tools (eg, the Web 2 projects site) that got me through. 
 
-## Plan for Web 3 Continuation in the Fall 2020:
+
 So, for Web 3, I want to have a head start so the quality, timing and execution are a lot better which will enable me to make better contributions to the design process, project collaboration, teamwork/assisting others & of course better end products -- a win-win. 
 
 *Thank you for everything you shared -- I have treasure trove of HTML, CSS & Js goodies organized & ready to keep me learning & iterating until return for Web 3 in the Fall!*
