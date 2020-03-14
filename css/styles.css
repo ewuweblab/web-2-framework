@@ -189,7 +189,6 @@ box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0,
 #Poster {
   display: flex;
   max-width: 100%;
-  padding: 20px;
   margin: 0 auto;
 }
 
@@ -284,7 +283,7 @@ a:focus {
   
   .SourcesList {
     margin: 0 auto;
-    padding: 10px;
+    padding-left: 10px;
     max-width: 80%;
   }
 
@@ -388,6 +387,7 @@ a:focus {
 
   .SourcesList {
     max-width: 95%;
+    padding-left: 15px;
   }
 
   #Poster {
@@ -452,6 +452,7 @@ line-height: 1;
 
   .SourcesList {
     max-width: 50%;
+    padding-left: 30px;
   }
 
   #Poster {
@@ -507,16 +508,26 @@ line-height: 1;
   }
 
 .blockquote {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .blockquote2 {
-  font-size: 2.2rem;
-  line-height: 1;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.MoreInsights,
+.Starring,
+.Synopsis {
+      font-size: 3.2rem;
+}
+
+.img {
+  max-width: 200px;
+  margin: 0 auto;
 }
 
 #Sources {
-  padding: 15px;
   max-width: 70%;
 }
 
@@ -529,6 +540,7 @@ line-height: 1;
 
   .SourcesList {
     max-width: 100%;
+    padding-left: 30px;
   }
 
   #Poster {
@@ -536,19 +548,17 @@ line-height: 1;
   }
 
   .Poster {
-    max-width: 60%;
+    max-width: 70%;
   }
   
   a, ul {
       max-width: 100%;
-      font-size: 1.1rem;
+      font-size: 1.5rem;
       line-height: 2.25;
-      padding-top: 20px;
-      padding-bottom: 20px;
   }
 
   .description {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 }
