@@ -21,10 +21,10 @@ main{
   flex-wrap:wrap;
 }
 h1{
-  color:red;
+  color:lightpink;
   font-family: 'Anton', sans-serif;
   font-size:100px;
-  padding-left:500px;
+  padding-left:300px;
   transition: all .2s ease-in-out;
 }
 h1:hover
@@ -32,7 +32,7 @@ h1:hover
   transform:scale(1.2);
 }
 blockquote{
-  color:red;
+  color:lightpink;
   font-size:75px;
   font-family: 'Anton', sans-serif;
   text-align:center;
@@ -54,12 +54,12 @@ blockquote:hover
 }
 
 p{
-  color:red;
+  color:lightpink;
   font-family: 'Anton', sans-serif;
   font-size:38px;
 }
 h2{
-  color:red;
+  color:lightpink;
   font-family: 'Anton', sans-serif;
   transition: all .2s ease-in-out;
   font-size:34px;
@@ -89,7 +89,7 @@ script{
 /*  Custom UI Controls */
 .plyr--full-ui input[type="range"]
 {
-  color:red;
+  color:lightpink;
 
 }
 
