@@ -14,16 +14,17 @@
 main{
   display:grid;
   grid-template-columns:repeat(1,1fr);
-  background:black;
+  background:lightpink;
 }
 .cast{
   display:flex;
   flex-wrap:wrap;
 }
 h1{
-  color:lightpink;
-  font-family: 'Anton', sans-serif;
-  font-size:100px;
+  color:red;
+  font-family: 'Lobster', cursive;
+  font-family: 'Romanesco', cursive;
+  font-size:200px;
   padding-left:300px;
   transition: all .2s ease-in-out;
 }
@@ -32,35 +33,39 @@ h1:hover
   transform:scale(1.2);
 }
 blockquote{
-  color:lightpink;
+  color:red;
   font-size:75px;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Romanesco', cursive;
   text-align:center;
   transition: all .2s ease-in-out;
   
 }
+
 blockquote:hover
 {
+  font-size:100px;
   transform:scale(1.2);
 }
 .backImage{
   display:block;
-  margin-left: 300px;
-  margin-right: auto;
-  width: 60%;
+  
+  width: 100%;
   position:absolute;
   z-index:0;
   opacity:.2;
 }
 
 p{
-  color:lightpink;
-  font-family: 'Anton', sans-serif;
+  color:red;
+  font-family: 'Lobster', cursive;
+font-family: 'Romanesco', cursive;
   font-size:38px;
 }
 h2{
-  color:lightpink;
-  font-family: 'Anton', sans-serif;
+  color:red;
+  font-family: 'Lobster', cursive;
+font-family: 'Romanesco', cursive;
   transition: all .2s ease-in-out;
   font-size:34px;
 }
@@ -83,13 +88,15 @@ div{
   padding-left:300px;
 }
 script{
+  font-family: 'Lobster', cursive;
+font-family: 'Romanesco', cursive;
   font-size:38px;
 }
 
 /*  Custom UI Controls */
 .plyr--full-ui input[type="range"]
 {
-  color:lightpink;
+  color:red;
 
 }
 
