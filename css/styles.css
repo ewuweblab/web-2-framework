@@ -150,12 +150,12 @@ The checkered border pattern was mine */
   max-width: 100%;
 } 
 
-.MoreInsights {
+.Reviews {
   text-align: center;
   text-shadow: 1px 1px 4px #e5e5e5;
   font-family: Magneto;
   font-size: 3.2rem;
-  line-height: 48px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #8E341B;
 }
@@ -178,9 +178,9 @@ box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0,
 .SourcesList {
   margin: 0 auto;
   color: #e5e5e5;
-  line-height: 2.5;
+  line-height: 2.25;
   max-width: 50%;
- list-style-type: dot;
+ list-style-type: circle;
  list-style-position: outside;  
 }
 
